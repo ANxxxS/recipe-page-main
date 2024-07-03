@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"youngserif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+html{
+    padding: 50px;
+}
+table ,tr ,td{
+    border: 5px solid White: hsl(0, 0%, 100%) ;
+    width: 550px;
+}
+#red{
+    color: rgb(222, 48, 48);
+}
+p{
+    font-size: 16px;
+}
+#H1{
+    color:  rgb(135, 7, 135);
+    font-size: 16px;
+}
+ li::marker{
+    color: brown; 
+}
+.all_body{
+    padding: 20px;
+    margin: 10px;
+}
+@media (min-whidth:1440px){
+        .all_body{
+            padding: 40px;
+            margin: 20px;
+        }
+}
+
+@media (max-whidth:375px){
+    .all_body{
+        padding: 10px;
+        margin: 5px;
+    }
+}
+img{
+    display: flex;
+}
